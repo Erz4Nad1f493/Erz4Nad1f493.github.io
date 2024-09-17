@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bukti Pemesanan - Premium Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="logo">
+                <img src="logo-resto.jpeg" alt="Logo Restoran">
+            </div>
+            <h1>Bukti Pemesanan</h1>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>Nama Pelayan</strong>
+                    Dorota
+                </div>
+                <div class="info-item">
+                    <strong>Tanggal Pemesanan</strong>
+                    <input type="date">
+                </div>
+                <div class="info-item">
+                    <strong>Nama Pemesan</strong>
+                    Blair
+                </div>
+                <div class="info-item">
+                    <strong>Alamat Pemesan</strong>
+                    Jl. Sawo No. 33, Samarinda Ulu
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Detail Pesanan</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Menu</th>
+                        <th>Jumlah</th>
+                        <th>Harga Satuan</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="menu-item">
+                                <img src="nasi-goreng.jpeg" alt="Nasi Goreng">
+                                <span><strong>Nasi Goreng Spesial</strong></span>
+                            </div>
+                        </td>
+                        <td><input type="number" min="0" value="1"> Porsi</td>
+                        <td>Rp 25.000</td>
+                        <td>Rp 25.000</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="menu-item">
+                                <img src="es-teh-manis.jpeg" alt="Es Teh Manis">
+                                <span><strong>Es Teh Manis</strong></span>
+                            </div>
+                        </td>
+                        <td><input type="number" min="0" value="1"> Gelas</td>
+                        <td>Rp 5.000</td>
+                        <td>Rp 5.000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <tr>
+                    <td><strong>Total Pesanan</strong></td>
+                    <td>Rp 30.000</td>
+                </tr>
+                <tr>
+                    <td><strong>Pajak</strong></td>
+                    <td>Rp 2.000</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Tagihan</strong></td>
+                    <td><strong>Rp 32.000</strong></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Metode Pembayaran</h2>
+            <div class="payment-methods">
+                <label class="payment-method"><input type="radio" name="payment"> Bank BCA</label>
+                <label class="payment-method"><input type="radio" name="payment"> Bank BRI</label>
+                <label class="payment-method"><input type="radio" name="payment"> OVO</label>
+                <label class="payment-method"><input type="radio" name="payment"> GoPay</label>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Nama: Erza Nadifa | NIM: 2309106093</p>
+            <p>Praktikum Web: <a href="https://classroom.google.com/c/NzEwMjM1NjcxOTQw/a/NzExMzg1NjcxOTYz/details" target="_blank">Posttest1</a></p>
+        </div>
+    </div>
+</body>
+</html>
